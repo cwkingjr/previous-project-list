@@ -10,6 +10,9 @@ Python 2 (restricted by deployment env) CLI application used to automate the ext
 ### Sonar Self-Signed Certificate Extractor (sonar-ssc-harvestor) - Only Dev
 This is a Python CLI application to extract and assess self-signed web server certificate information from the Project Sonar Internet-wide scan of web servers. This application supported an enterprise effort to investigate and report summary information on the numbers and types of global sites using self-signed ceritificates.
 
+### ArcSight CSV to Archive XML Transformer - Only Dev
+This was a Java CLI application that used 7-10 differently-formatted CSV files to generate a single ArcSight ESM Archive XML-formatted import file. This tool was based on a previous but broken version that another ArcSight professional services technician developed, but where there was no source code. I recreated the capability in a new tool, adding in new functionality, employing data validation tests for all known previous issues, and updating the output format to match ESM changes in newer versions. The tool needed to be written in Java so that it could be run on any system that ArcSight ESM or Console was installed (e.g., with Java). This tool was an internal ArcSight non-supported product for use by global ArcSight professional services personnel.
+
 ### Setter - SiLK IP Address and Prefix Map File Generator - Only Dev
 Python 2 (restricted by deployment env) CLI application used to allow cyber defenders to manage protected network/organization IP address block / organization name attribution in a single file and then generate a hierarchical set of SiLK IP address set and prefix map (pmap) files. Set and pmap files are then used by analysts during SiLK queries to limit searching/reporting to the desired organizational level (e.g., all orgs, one org, one region of an org, one section of an org, etc).
 

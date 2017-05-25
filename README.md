@@ -1,8 +1,8 @@
 # Previous Project Listing
 Description of previous projects I have worked on/built. Since most of the projects I have worked on were restricted due to client requirements, I have little to show for those when folks come spelunking on github. So, I figured I'd compile a list of some of the previous things I've built.
 
-### Cyber Security Incident Response Operations Intranet
+### Cyber Security Incident Response Operations Intranet - Only Dev
 Intranet information portal to provide knowledge management, analysis, incident reporting, and metrics retrieval capabilities. This was a 26-module PHP, Perl, and MySQL solution that supported 24-hour operations for a team of ~50 analysts, sensor system administrators, and management personnel for ~4.5 years.
 
-### Seminar Management Application
+### Seminar Management Application - Lead/Primary Dev
 Training conference management software. This was a 3-tier solution using Visual Basic 6 client and server software, with a SQL Server (45-table) back end. The Attendee client application provided in-classroom students with current schedules, presentation topics/descriptions/goals, and accepted student presentation ratings and comments. The Seminar Manager client application provided myriad of modules needed to manage all facets of the different seminars: quota coordination and allocation, presentation info, primary/alternate presenter contact info, theater functional POC contact info, classroom schedules, attendee/student info, student seating assignments, individual and aggregated student assessments of presentations, automated presentation assessment email distribution to presenter and chain of command, etc. These applications were used to manage six different seminar courses using two classrooms over four plus years teaching approximately 5,000 students.

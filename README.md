@@ -10,6 +10,9 @@ Python 2 (restricted by deployment env) CLI application used to automate the ext
 ### Sonar Self-Signed Certificate Extractor (sonar-ssc-harvestor) - Only Dev
 This is a Python CLI application to extract and assess self-signed web server certificate information from the Project Sonar Internet-wide scan of web servers. This application supported an enterprise effort to investigate and report summary information on the numbers and types of global sites using self-signed ceritificates.
 
+### SiLK Sensor Deployment Test - Only Dev
+This is a bash script that includes several SiLK data availability and format tests. This tool was requested by engineering and is/was used to test the network flow data produced by a new sensor just after deployment prior to the deployment team leaving, to make sure that the sensor data was being received at the data center correctly.
+
 ### ArcSight CSV to Archive XML Transformer - Only Dev
 This was a Java CLI application that used 7-10 differently-formatted CSV files to generate a single ArcSight ESM Archive XML-formatted import file. This tool was based on a previous but broken version that another ArcSight professional services technician developed, but where there was no source code. I recreated the capability in a new tool, adding in new functionality, employing data validation tests for all known previous issues, and updating the output format to match ESM changes in newer versions. The tool needed to be written in Java so that it could be run on any system that ArcSight ESM or Console was installed (e.g., with Java). This tool was an internal ArcSight non-supported product for use by global ArcSight professional services personnel.
 

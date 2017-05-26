@@ -22,8 +22,14 @@ Python 2 (restricted by deployment env) CLI application used to allow cyber defe
 ### NIC to ArcSight Enterprise Security Manager (ESM) ETL - Only Dev
 This was a Python 2 application used to automate the extraction, cleansing, and reformatting of a proprietary network information center (NIC) data dump into internal network attribution information as needed for ingest into the ArcSight ESM Security Incident and Event Management (SIEM) system. This tool/data allowed global security engineers to author granular correlation rules and significantly reduce the quantity of false positive alarms presented to security analysts.
 
+### Barnyard Solaris Patch - Only Dev
+This was a patch to a C application that processed Snort Intrusion Detection System (IDS) alert files in order to push them into a MySQL database. This patch fixed a data extraction issue with Barnyard running on an old version of Solaris that the core maintainers couldn't address since they had no old Solaris systems. The patched software supported an enterprise IDS team for about 6 months, until Solaris was upgraded.
+
 ### Cyber Security Incident Response Operations Intranet - Only Dev
 Intranet information portal to provide knowledge management, analysis, incident reporting, and metrics retrieval capabilities. This was a 26-module PHP, Perl, and MySQL solution that supported 24-hour operations for a team of ~50 analysts, sensor system administrators, and management personnel for ~4.5 years.
+
+### ACID Custom Features - Only Dev
+Added two custom features to the Analysis Console for Intrusion Databases (ACID) PHP/MySQL web application to improve incident handling operations efficiency. These were internal modification to provide locally-desired functionality for a 24-hour operations center supporting ~40 analysts. These features saved approximately 8 hours per week in analyst tool efficiency.
 
 ### Enlisted Performance Report Status Tracker - Only Dev
 This was a Visual Basic 6 application with an MDB database back end (only thing allowed by security). The application was used by a single administrative person to track and report on annual performance report information for ~250 people for 5 years. The type of info tracked was: person and supervisor contact info, last report, report due by date for each of 5-8 sign-off milestones, date arrived at each chain-of-command location, date completed, routing comments, etc.

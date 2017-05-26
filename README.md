@@ -1,11 +1,18 @@
 # Previous Project Listing
 Description of previous projects I have worked on/built. Since most of the projects I have worked on were restricted due to client requirements, I have little to show for those when folks come spelunking on github. So, I figured I'd compile a list of some of the previous things I've built.
 
+### Django Template Names - Contributor
+Django view mixin to add template names when not provided. I fixed some typos and added comments and tests.
+[django-template-names](https://github.com/phpdude/django-template-names)
+
 ### Acler - Cisco ACL SiLK Data Flow Checker - Only Dev
 Python 2 (restricted by deployment env) CLI application used to automate the checking of thousands of lines of Cisco ACL records against SiLK network flow records to determine if there has been any recent network activity matching each ACL. This tool is/was used by a very large enterprise as a part of their annual ACL revalidation project. Agencies requesting the ACL are required to re-verify the need each year and are provided with whether/not any traffic has occured as part of the re-verification request. The tool parses the ACL records and runs SiLK queries back in time as needed to determine if traffic has been seen, saving hundreds of man hours and minimizing network flow system loading.
 
 ### Arbor - NIC to Arbor ETL - Only Dev
 Python 2 (restricted by deployment env) CLI application used to automate the extraction, cleansing, and reformatting of a proprietary network information center (NIC) data dump into network attribution information as needed for ingest into an Arbor Peakflow detection system. This tool/data allows generation of granular correlation/trigger rules within Arbor.
+
+### TeamworkPM Status Integration - Only Dev
+This is a couple of Python scripts used to harvest TeamworkPM.com employee status information, aggregate it for company-wide visibility, and report on employee compliance with updating it weekly. One of the scripts is loosely based on some work another employee did.
 
 ### Sonar Self-Signed Certificate Extractor (sonar-ssc-harvestor) - Only Dev
 This is a Python CLI application to extract and assess self-signed web server certificate information from the Project Sonar Internet-wide scan of web servers. This application supported an enterprise effort to investigate and report summary information on the numbers and types of global sites using self-signed ceritificates.

@@ -29,6 +29,9 @@ Python 2 (restricted by deployment env) CLI application used to allow cyber defe
 ### NIC to ArcSight Enterprise Security Manager (ESM) ETL - Only Dev
 This was a Python 2 application used to automate the extraction, cleansing, and reformatting of a proprietary network information center (NIC) data dump into internal network attribution information as needed for ingest into the ArcSight ESM Security Incident and Event Management (SIEM) system. This tool/data allowed global security engineers to author granular correlation rules and significantly reduce the quantity of false positive alarms presented to security analysts.
 
+### Analysis and Reporting Console (ARC) - Lead Dev
+This was a regional CERT initiative to create a 3-tier application that would consolidate the ACID incident review system and the Intranet into a single application suite, to include a significant list of new features. I built a C# Windows client application, a C# server application (to isolate all internal data structures on the server), and a Perl/Oracle back end. Another dev designed the Perl "correlation framework" which would run constantly in the background, consume rule plugins, and generate correlation events based on the rules, pushing them to the database. The client app provided filterable views of event data to the analysts, allowed them to check out events to work, and provided the means to annotate events and generate incident reports. In addition, the application replicated all knowledge management and support modules from the internet, while adding requested features to them (e.g., instead of providing site news [intranet], provide site news and show each user what they have already read). This project was about 1/3 complete when the customer decided to purchase a global SIM product and requested that I  provide engineering and analysis expertise to the HQ product selection team. 
+
 ### Barnyard Solaris Patch - Only Dev
 This was a patch to a C application that processed Snort Intrusion Detection System (IDS) alert files in order to push them into a MySQL database. This patch fixed a data extraction issue with Barnyard running on an old version of Solaris that the core maintainers couldn't address since they had no old Solaris systems. The patched software supported an enterprise IDS team for about 6 months, until Solaris was upgraded.
 
@@ -37,6 +40,9 @@ Intranet information portal to provide knowledge management, analysis, incident 
 
 ### ACID Custom Features - Only Dev
 Added two custom features to the Analysis Console for Intrusion Databases (ACID) PHP/MySQL web application to improve incident handling operations efficiency. These were internal modification to provide locally-desired functionality for a 24-hour operations center supporting ~40 analysts. These features saved approximately 8 hours per week in analyst tool efficiency.
+
+### Myriad Customer Web Apps - Junior Dev
+While working at PSI Web Studio, I was a junior dev on a 10-developer team. We programmed mostly in Cold Fusion, building and maintaining a myriad (30-40?) of commercial and government customer web sites/applications. Most of the sites were commercial marketplaces where companies could display and sell items via credit card (before everyone moved to Amazon). Separately, since I was the only one experienced with Visual Studio, I supported a large textiles customer with a C#-based marketplace app.
 
 ### Enlisted Performance Report Status Tracker - Only Dev
 This was a Visual Basic 6 application with an MDB database back end (only thing allowed by security). The application was used by a single administrative person to track and report on annual performance report information for ~250 people for 5 years. The type of info tracked was: person and supervisor contact info, last report, report due by date for each of 5-8 sign-off milestones, date arrived at each chain-of-command location, date completed, routing comments, etc.

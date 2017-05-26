@@ -41,8 +41,8 @@ Intranet information portal to provide knowledge management, analysis, incident 
 ### ACID Custom Features - Only Dev
 Added two custom features to the Analysis Console for Intrusion Databases (ACID) PHP/MySQL web application to improve incident handling operations efficiency. These were internal modification to provide locally-desired functionality for a 24-hour operations center supporting ~40 analysts. These features saved approximately 8 hours per week in analyst tool efficiency.
 
-### Myriad Customer Web Apps - Junior Dev
-While working at PSI Web Studio, I was a junior dev on a 10-developer team. We programmed mostly in ColdFusion, JavaScript, HTML, and CSS, building and maintaining a myriad (30-40?) of commercial and government customer web sites/applications. Most of the sites were commercial marketplaces where companies could display and sell items via credit card (before everyone moved to Amazon). Separately, since I was the only one experienced with Visual Studio, I supported a large textiles customer with a C#-based marketplace app.
+### Myriad Customer Web Apps - Intermediate Dev
+While working at PSI Web Studio, I was an intermediate dev on a 10-developer team. We programmed mostly in ColdFusion, JavaScript, HTML, and CSS, building and maintaining a myriad (30-40?) of commercial and government customer web sites/applications. Most of the sites were commercial marketplaces where companies could display and sell items via credit card (before everyone moved to Amazon). Separately, since I was the only one experienced with Visual Studio, I supported a large textiles customer with a C#-based marketplace app.
 
 ### Enlisted Performance Report Status Tracker - Only Dev
 This was a Visual Basic 6 application with an MDB database back end (only thing allowed by security). The application was used by a single administrative person to track and report on annual performance report information for ~250 people for 5 years. The type of info tracked was: person and supervisor contact info, last report, report due by date for each of 5-8 sign-off milestones, date arrived at each chain-of-command location, date completed, routing comments, etc.

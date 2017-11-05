@@ -1,5 +1,5 @@
 # Previous Project Listing
-Description of previous projects I have worked on/built. Since most of the projects I have worked on were restricted due to client requirements, I have little to show for those when folks come spelunking on github. So, I figured I'd compile a list of some of the previous things I've built.
+Description of previous projects I have worked on/built. Since the projects I now work on and most of the projects I have worked on were restricted due to client requirements, I have little to show for those when folks come spelunking on github. So, I figured I'd compile a list of some of the previous things I've built.
 
 ### Django Template Names - Contributor
 Django class-based view mixin to add template names when not provided. I fixed some typos and added comments and tests.
